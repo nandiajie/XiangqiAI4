@@ -19,6 +19,7 @@ jobs:
         shopt -s dotglob
         mv XiangqiAI/* .
         rm -rf XiangqiAI XiangqiAI.zip
+        cp BoardView.kt app/src/main/java/com/xiangqiai/engine/BoardView.kt
 
     - name: Set up JDK 17
       uses: actions/setup-java@v4
